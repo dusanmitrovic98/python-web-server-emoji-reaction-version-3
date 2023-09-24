@@ -10,3 +10,4 @@ document.addEventListener("DOMContentLoaded", () => {
       emojiPopup.textContent = emoji;
       emojiContainer.appendChild(emojiPopup);
 
+      setTimeout(() => {
