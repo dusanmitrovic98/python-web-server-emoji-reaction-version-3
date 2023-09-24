@@ -15,3 +15,4 @@ document.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => {
           emojiPopup.remove();
         }, 2000);
+      }, 10);
