@@ -36,3 +36,4 @@ body {
         opacity: 0.75;
     }
     100% {
+        transform: translateY(-100%);
