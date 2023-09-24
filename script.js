@@ -7,3 +7,4 @@ document.addEventListener("DOMContentLoaded", () => {
       const emoji = button.getAttribute("data-emoji");
       const emojiPopup = document.createElement("div");
       emojiPopup.className = "emoji-popup";
+      emojiPopup.textContent = emoji;
