@@ -5,3 +5,4 @@ document.addEventListener("DOMContentLoaded", () => {
   emojiButtons.forEach((button) => {
     button.addEventListener("click", () => {
       const emoji = button.getAttribute("data-emoji");
+      const emojiPopup = document.createElement("div");
