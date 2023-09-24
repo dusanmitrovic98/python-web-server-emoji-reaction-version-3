@@ -8,3 +8,4 @@ document.addEventListener("DOMContentLoaded", () => {
       const emojiPopup = document.createElement("div");
       emojiPopup.className = "emoji-popup";
       emojiPopup.textContent = emoji;
+      emojiContainer.appendChild(emojiPopup);
