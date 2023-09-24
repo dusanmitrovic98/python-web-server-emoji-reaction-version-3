@@ -3,3 +3,4 @@ document.addEventListener("DOMContentLoaded", () => {
   const emojiContainer = document.querySelector(".emoji-container");
 
   emojiButtons.forEach((button) => {
+    button.addEventListener("click", () => {
