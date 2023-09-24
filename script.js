@@ -11,3 +11,4 @@ document.addEventListener("DOMContentLoaded", () => {
       emojiContainer.appendChild(emojiPopup);
 
       setTimeout(() => {
+        emojiPopup.style.animation = "emoji-pop-up 2s forwards";
