@@ -14,3 +14,4 @@ document.addEventListener("DOMContentLoaded", () => {
         emojiPopup.style.animation = "emoji-pop-up 2s forwards";
         setTimeout(() => {
           emojiPopup.remove();
+        }, 2000);
